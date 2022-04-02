@@ -1,5 +1,5 @@
 let header = (include "chipmunk/chipmunk.h")
-load-library "libchipmunk.so"
+shared-library "libchipmunk.so"
 
 inline filter-scope (scope pattern)
     """"For a scope match the pattern to a symbol prefix and remove it from the outputted
